@@ -30,7 +30,7 @@ a {
 }
 
 .border {
-    border: 1px dashed purple;
+    border: 2px dashed white;
 }
 
 ul {
@@ -65,4 +65,29 @@ a.btn-bl {
 .top-right {
     height: 80px;
     align-items: center;
+}
+
+.header-bottom {
+    background-color: #b4d0e7;
+}
+
+.title {
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.contain {
+    display: flex;
+}
+
+.small-contain {
+    flex-basis: 40%;
+    height: 600px;
+    background-color: pink;
+}
+
+.big-contain {
+    flex-basis: 60%;
+    height: 600px;
+    background-color: orange;
 }
