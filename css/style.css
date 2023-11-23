@@ -16,12 +16,12 @@ a {
 }
 
 .container-xl {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .container-small {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 .border {
-    border: 2px dashed white;
+    border: 2px dashed black;
 }
 
 ul {
@@ -41,6 +41,10 @@ a.btn-bl {
     background-color: #0061ff;
     color: #fff;
     padding: 5px 10px;
+}
+
+.contain.reverse {
+    flex-direction: row-reverse;
 }
 
 /* Header */
@@ -72,7 +76,7 @@ a.btn-bl {
 }
 
 .title {
-    height: 200px;
+    height: 250px;
     background-color: yellowgreen;
 }
 
@@ -82,12 +86,30 @@ a.btn-bl {
 
 .small-contain {
     flex-basis: 40%;
-    height: 600px;
     background-color: pink;
 }
 
 .big-contain {
     flex-basis: 60%;
-    height: 600px;
+    height: 500px;
     background-color: orange;
+}
+
+/* Main */
+.business-title {
+    height: 200px;
+    background-color: yellow;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    flex-basis: calc(100% / 3);
+    background-color: dodgerblue;
+    border: 1px dashed crimson;
+    flex-grow: 1;
 }
