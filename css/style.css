@@ -8,4 +8,61 @@
 /* Generics */
 body {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+}
+
+a {
+    color: black;
+}
+
+.container-xl {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 1px dashed purple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a.btn-bl {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* Header */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 1px 1px #dedede;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header-top a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.top-left,
+.top-right {
+    height: 80px;
+    align-items: center;
 }
