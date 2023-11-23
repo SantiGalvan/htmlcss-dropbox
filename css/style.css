@@ -153,3 +153,21 @@ section {
     height: 100px;
     background-color: fuchsia;
 }
+
+/* Footer */
+footer {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-col {
+    flex-basis: calc(100% / 5);
+    height: 500px;
+    background-color: navajowhite;
+}
+
+.lenguage {
+    height: 100px;
+    background-color: salmon;
+}
