@@ -65,6 +65,12 @@ a.btn-bl {
     color: #fff;
 }
 
+.btn-wh {
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+}
+
 a.btn-small {
     padding: 5px 10px;
 }
@@ -73,7 +79,7 @@ a.btn-big {
     padding: 10px 20px;
 }
 
-.row.reverse {
+.flex.reverse {
     flex-direction: row-reverse;
 }
 
@@ -93,6 +99,14 @@ img {
 a.link {
     text-decoration: underline;
     color: #0061ff;
+}
+
+.pl50 {
+    padding-left: 50px;
+}
+
+.m40 {
+    margin: 40px 0;
 }
 
 /* Header */
@@ -127,10 +141,6 @@ a.link {
 
 .col-30 {
     flex-basis: 30%;
-}
-
-.col-30 p {
-    margin: 40px 0;
 }
 
 .col-70 {
@@ -261,6 +271,25 @@ section {
     margin-top: 40px;
 }
 
+.col-40 {
+    flex-basis: 40%;
+}
+
+.col-60 {
+    flex-basis: 60%;
+}
+
+.col-40 h3 {
+    margin-top: 40px;
+}
+
+.col-40 p {
+    margin-bottom: 20px;
+}
+
+.col-40 a {
+    display: inline-block;
+}
 
 .end-operations {
     height: 300px;
