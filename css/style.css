@@ -48,7 +48,7 @@ a.btn-bl {
 }
 
 /* Header */
-.header-top {
+.header-nav {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
@@ -60,18 +60,18 @@ a.btn-bl {
     z-index: 1;
 }
 
-.header-top a {
+.header-nav a {
     text-decoration: none;
     margin: 0 20px;
 }
 
-.top-left,
-.top-right {
+.nav-left,
+.nav-right {
     height: 80px;
     align-items: center;
 }
 
-.header-bottom {
+.header-main {
     background-color: #b4d0e7;
 }
 
