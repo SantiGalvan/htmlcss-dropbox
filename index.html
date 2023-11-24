@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="icon" href="img/favicon.ico">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,31 +29,40 @@
 
         <!-- Header nav -->
         <div class="header-nav">
-            <div class="nav-left flex">
+            <nav class="nav-left flex">
                 <a href="#"><img src="img/logo-small.png" alt=""></a>
                 <ul class="flex">
                     <li><a href="#">Perchè Dropbox</a></li>
                     <li><a href="#">Funzioni</a></li>
                     <li><a href="#">Piani e prezzi</a></li>
                 </ul>
-            </div>
+            </nav>
             <div class="nav-right flex">
                 <ul class="flex">
                     <li><a href="#">Supporto</a></li>
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
-                    <li><a href="#" class="btn-bl">Inizia</a></li>
+                    <li><a href="#" class="btn-small btn-bl">Inizia</a></li>
                 </ul>
             </div>
         </div>
 
         <!-- Header main -->
         <div class="header-main">
-            <div class="container-xl">
-                <div class="title border"></div>
-                <div class="contain">
-                    <div class="small-contain border"></div>
-                    <div class="big-contain border"></div>
+            <div class="container">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="row h-400">
+                    <div class="col-30">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto. Dropbox Business è più di uno spazio sicuro: è un modo intelligente e integrato per
+                            ottimizzare il flusso di lavoro esistente.</p>
+                        <a href="#" class="btn-big btn-bl">Inizia la tua prova gratuita</a>
+                        <p>Annulla in qualsiasi momento</p>
+                        <a href="#business"><i class="fa-solid fa-arrow-down fa-3x"></i></a>
+                    </div>
+                    <div class="col-70">
+                        <img src="img/jumbo.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,26 +72,26 @@
     <main>
 
         <!-- Section business -->
-        <section>
+        <section id="business">
             <div class="container-small">
                 <div class="business-title border"></div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                    </div>
+                <!-- <div class="col"> -->
+                <div class="row">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
                 </div>
+                <!-- </div> -->
             </div>
         </section>
 
         <!-- Section partner -->
         <section>
             <div class="container-small">
-                <div class="contain reverse">
-                    <div class="small-contain border"></div>
-                    <div class="big-contain border"></div>
+                <div class="row reverse">
+                    <div class="col-30 border"></div>
+                    <div class="col-70 border"></div>
                 </div>
             </div>
         </section>
@@ -124,7 +138,7 @@
 
         <!-- Footer -->
         <footer>
-            <div class="container-xl">
+            <div class="container">
                 <div class="footer-top flex">
                     <div class="footer-col border"></div>
                     <div class="footer-col border"></div>

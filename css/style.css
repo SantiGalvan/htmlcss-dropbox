@@ -11,17 +11,24 @@ body {
     padding-top: 80px;
 }
 
-a {
-    color: black;
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
-.container-xl {
-    max-width: 1400px;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-small {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -40,11 +47,27 @@ ul {
 a.btn-bl {
     background-color: #0061ff;
     color: #fff;
+}
+
+a.btn-small {
     padding: 5px 10px;
 }
 
-.contain.reverse {
+a.btn-big {
+    padding: 10px 20px;
+}
+
+.row.reverse {
     flex-direction: row-reverse;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.h-400 {
+    max-height: 400px;
 }
 
 /* Header */
@@ -61,7 +84,6 @@ a.btn-bl {
 }
 
 .header-nav a {
-    text-decoration: none;
     margin: 0 20px;
 }
 
@@ -73,26 +95,21 @@ a.btn-bl {
 
 .header-main {
     background-color: #b4d0e7;
+    padding-top: 80px;
+    margin-bottom: 150px;
 }
 
-.title {
-    height: 250px;
-    background-color: yellowgreen;
+
+.col-30 {
+    flex-basis: 30%;
 }
 
-.contain {
-    display: flex;
+.col-30 p {
+    margin: 40px 0;
 }
 
-.small-contain {
-    flex-basis: 40%;
-    background-color: pink;
-}
-
-.big-contain {
-    flex-basis: 60%;
-    height: 500px;
-    background-color: orange;
+.col-70 {
+    flex-basis: 70%;
 }
 
 /* Main */
@@ -108,15 +125,17 @@ section {
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .card {
-    height: 300px;
     flex-basis: calc(100% / 3);
+    height: 300px;
     background-color: dodgerblue;
     border: 1px dashed crimson;
     flex-grow: 1;
 }
+
 
 .end-operations {
     height: 300px;
