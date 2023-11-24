@@ -295,8 +295,17 @@ section {
 }
 
 .end-operations {
-    height: 300px;
-    background-color: purple;
+    margin: 150px 0;
+}
+
+.end-operations h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.end-operations a {
+    text-decoration: underline;
+    color: #0061ff;
 }
 
 .affiliated {
