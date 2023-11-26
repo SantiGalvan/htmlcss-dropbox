@@ -38,6 +38,17 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Utils */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -52,40 +63,12 @@ a {
     display: flex;
 }
 
-.border {
-    border: 2px dashed black;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a.btn-bl {
-    background-color: #0061ff;
-    color: #fff;
-}
-
-.btn-wh {
-    background-color: #fff;
-    color: black;
-    border: 1px solid;
-}
-
-a.btn-small {
-    padding: 5px 10px;
-}
-
-a.btn-big {
-    padding: 10px 20px;
-}
-
 .flex.reverse {
     flex-direction: row-reverse;
 }
 
-img {
-    max-width: 100%;
-    display: block;
+.border {
+    border: 1px solid gray;
 }
 
 .h-400 {
@@ -141,7 +124,30 @@ a.link {
     background-color: #ffd830;
 }
 
-/* Header */
+
+/* Buttons */
+a.btn-bl {
+    background-color: #0061ff;
+    color: #fff;
+}
+
+.btn-wh {
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+}
+
+a.btn-small {
+    padding: 5px 10px;
+}
+
+a.btn-big {
+    padding: 10px 20px;
+}
+
+/*! Header */
+
+/* Header nav */
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -164,6 +170,7 @@ a.link {
     align-items: center;
 }
 
+/* Header main */
 .header-main {
     background-color: #b4d0e7;
     padding-top: 80px;
@@ -179,15 +186,12 @@ a.link {
     flex-basis: 70%;
 }
 
-.border {
-    border: 1px solid gray;
-}
-
-/* Main */
+/*? Main */
 section {
     margin: 80px 0;
 }
 
+/* Section business */
 .check {
     height: 20px;
     width: 20px;
@@ -306,6 +310,8 @@ section {
     margin-top: 40px;
 }
 
+
+/* Section partner */
 .col-40 {
     flex-basis: 40%;
 }
@@ -330,6 +336,8 @@ section {
     margin: 150px 0;
 }
 
+
+/* Section operations */
 .end-operations h2 {
     font-weight: bold;
     font-size: 3rem;
@@ -340,6 +348,8 @@ section {
     color: #0061ff;
 }
 
+
+/* Section affiliated */
 .affiliated {
     display: flex;
 }
@@ -415,6 +425,8 @@ section {
     text-align: center;
 }
 
+
+/* Section requests */
 .col-requests {
     height: 100px;
     border-bottom: 1px solid;
@@ -434,7 +446,7 @@ section {
     font-weight: 600;
 }
 
-/* Footer */
+/** Footer */
 footer {
     background-color: black;
     padding-top: 40px;
