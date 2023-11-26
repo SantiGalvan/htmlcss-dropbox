@@ -441,13 +441,35 @@ footer {
     padding-bottom: 20px;
 }
 
+.footer-top {
+    padding-top: 20px;
+}
+
+.footer-top li {
+    margin: 20px 0;
+}
+
+.footer-top li a {
+    color: #fff;
+}
+
+.footer-col-border {
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    display: inline-block;
+    margin-top: 80px;
+}
+
 .footer-col {
     flex-basis: calc(100% / 5);
-    height: 500px;
-    background-color: navajowhite;
+    color: #fff;
 }
 
 .lenguage {
     height: 100px;
-    background-color: salmon;
+    color: #fff;
+}
+
+.lenguage p {
+    margin-top: 30px;
 }
