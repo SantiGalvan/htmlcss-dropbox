@@ -417,7 +417,21 @@ section {
 
 .col-requests {
     height: 100px;
-    background-color: fuchsia;
+    border-bottom: 1px solid;
+    line-height: 100px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col-requests i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.col-requests h2 {
+    font-weight: 600;
 }
 
 /* Footer */
