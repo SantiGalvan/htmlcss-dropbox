@@ -178,7 +178,7 @@ a.btn-bl {
     color: #fff;
 }
 
-.btn-wh {
+a.btn-wh {
     background-color: #fff;
     color: black;
 }
@@ -189,6 +189,19 @@ a.btn-small {
 
 a.btn-big {
     padding: 10px 20px;
+}
+
+a.btn-small:hover,
+a.btn-big:hover {
+    box-shadow: 0 0 10px black;
+}
+
+a.btn-bl:hover {
+    text-shadow: 0 0 10px #fff;
+}
+
+a.btn-wh:hover {
+    text-shadow: 0 0 10px gray;
 }
 
 /*! Header */
