@@ -482,9 +482,12 @@ section {
 
 /* Section requests */
 .col-requests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: var(--p100);
     border-bottom: 1px solid;
-    line-height: var(--p100);
+    /* line-height: var(--p100); */
     font-weight: 500;
     position: relative;
 }
@@ -498,6 +501,18 @@ section {
 
 .col-requests h2 {
     font-weight: 600;
+}
+
+.answer {
+    display: none;
+}
+
+.col-requests:hover .request {
+    display: none;
+}
+
+.col-requests:hover .answer {
+    display: contents;
 }
 
 /** Footer */
