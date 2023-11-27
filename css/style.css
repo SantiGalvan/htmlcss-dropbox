@@ -213,7 +213,17 @@ a.btn-big {
 .nav-left,
 .nav-right {
     height: var(--p80);
-    align-items: center;
+    line-height: var(--p80);
+}
+
+.nav-left img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-left li:hover,
+.nav-right li:hover {
+    border-bottom: 1px solid;
 }
 
 /* Header main */
