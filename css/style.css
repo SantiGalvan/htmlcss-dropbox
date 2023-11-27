@@ -216,7 +216,6 @@ a.btn-wh:hover {
     right: 0;
     left: 0;
     top: 0;
-    z-index: 1;
 }
 
 .header-nav a {
@@ -452,13 +451,14 @@ section {
     margin: var(--ma40);
 }
 
+.affiliated-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
 .affiliated-bottom-left h2 {
     font-size: var(--r2);
     font-weight: 600;
-    position: relative;
-    top: 50%;
-    left: 0;
-    translate: 0 -50%;
 }
 
 .affiliated-bottom-right a {
@@ -483,19 +483,11 @@ section {
 /* Section requests */
 .col-requests {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     height: var(--p100);
     border-bottom: 1px solid;
     font-weight: 500;
-    position: relative;
-}
-
-.col-requests i {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    translate: 0 -50%;
 }
 
 .col-requests h2 {
