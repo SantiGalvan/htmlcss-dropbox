@@ -187,6 +187,10 @@ a.btn-small {
     padding: 5px 10px;
 }
 
+a.btn-small.btn-bl {
+    display: inline;
+}
+
 a.btn-big {
     padding: 10px 20px;
 }
@@ -220,6 +224,7 @@ a.btn-wh:hover {
 
 .header-nav a {
     margin: var(--ma020);
+    display: block;
 }
 
 .nav-left,
