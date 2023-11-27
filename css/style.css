@@ -172,7 +172,6 @@ a.link {
     background-color: #ffd830;
 }
 
-
 /* Buttons */
 a.btn-bl {
     background-color: #0061ff;
@@ -302,10 +301,10 @@ section {
 .card-list li {
     margin: var(--ma15);
     font-size: var(--r09);
-}
-
-.card-list i {
-    margin-right: var(--p5);
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin: 15px 0;
 }
 
 .card-actions a {
@@ -324,14 +323,8 @@ section {
     margin-bottom: var(--p40);
 }
 
-.card-info i {
+.c-bl i {
     color: #0061ff;
-    margin-right: var(--p5);
-}
-
-.card-info li {
-    margin: var(--ma10);
-    font-size: var(--r09);
 }
 
 .full-card-container {
@@ -414,7 +407,6 @@ section {
 .affiliated-row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .affiliated-card {
@@ -429,7 +421,7 @@ section {
     top: 50%;
     left: 0;
     translate: 0 -50%;
-    filter: invert(100%)
+    filter: invert(100%);
 }
 
 .uf img {
