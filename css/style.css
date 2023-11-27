@@ -236,7 +236,7 @@ a.btn-wh:hover {
 
 .nav-left img {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 .nav-left li:hover,
